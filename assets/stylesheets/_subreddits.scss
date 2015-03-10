@@ -1,0 +1,35 @@
+.subreddit {
+    .usertext .md {
+        background: #363B42;
+        border: none;
+        border-radius: 4px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .title { color: #D4D7DB; }
+}
+
+.searchpane {
+    background: #272B30;
+    border: #3B4149 1px solid;
+    border-radius: 4px;
+
+    h4 {
+        color: #D4D7DB !important;
+        font-weight: normal;
+        font-size: 11px;
+    }
+}
+
+.subscription-box {
+    .title {
+        color: #8EAFC6;
+        font-size: 13px;
+    }
+
+    .box-separator {
+        border-color: #8EAFC6;
+        margin: 5px auto;
+    }
+}

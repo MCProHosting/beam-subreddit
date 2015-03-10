@@ -239,13 +239,3 @@ body {background:#11131b;color:#45494d;font-family: Verdana, Helvetica,Arial,San
     .explore-item .explore-feedback-dismiss{background-color:#DEDEDE;border-radius:2px;}
     .explore-item .explore-feedback .fancy-toggle-button .add, .explore-item .explore-feedback .fancy-toggle-button .remove{border-color:#5F6265;color:#5F6265;}
     
-    /*==========================
-     SUBREDDITS
-    ===========================*/
-    .subreddit .usertext .md {background:#363B42;border:none;border-radius:4px;padding:5px;font-size:12px;}
-    .subreddit .title{color:#D4D7DB;}
-    .searchpane {background:#272B30;border:#3B4149 1px solid;border-radius:4px;}
-    .searchpane h4 {color:#D4D7DB!important; font-weight:normal;font-size:11px;}
-    .subscription-box .title{color:#8EAFC6; font-size:13px;}
-    .subscription-box .box-separator{border-color:#8EAFC6;margin:5px auto}    
-    
