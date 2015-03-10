@@ -65,3 +65,19 @@
 }
 
 .entry .RESUserTag { background: none; }
+
+/*==========================
+ PRIVATE RSS TAB
+===========================*/    
+
+div.instructions.private-feeds {
+    background: #32373d;
+    color: #d4d7db;
+    border-radius: 4px;
+    padding:10px;
+}
+
+.private-feeds.instructions .feedlink {
+    border-color: #7c8187;
+    border-radius: 3px;
+}

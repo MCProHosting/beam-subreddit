@@ -1,0 +1,50 @@
+.menuarea {
+    border-bottom: #5c5e61 1px dotted;
+}
+
+.message {
+    margin: 5px;
+    border-bottom: #45494d dashed 1px;
+
+    .subject {
+        color: #8eafc6;
+    }
+}
+
+.roundfield {
+    background: #45494d;
+    color: #d4d7db;
+    font-size: 14px;
+}
+
+.trophy-table {
+    background: #2c3035;
+
+    .trophy-name { color: #abaeb2 !important; }
+}
+
+.message {
+    .message-parent .tagline,
+    .message-reply .tagline {
+        font-weight: bold;
+        color: #B17272;
+    }
+
+    .message-reply {
+        .entry .message.message-parent .entry {
+            border-left: #3B4149 dashed 2px;
+            color: #D4D7DB;
+        }
+
+        .recipient > .entry .head,
+        .message.message-parent.recipient > .entry .head {
+            color: #B17272;
+        }
+    }
+
+    .new > .entry {
+        background: #32373D;
+        border-color: #8EAFC6;
+        border-radius: 4px;
+    }
+}

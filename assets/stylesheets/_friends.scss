@@ -1,0 +1,8 @@
+.usertable tr {
+    td {
+        border: 1px solid #363b42;
+        padding: 5px;
+
+        &:hover { background-color: #141719; }
+    }
+}
