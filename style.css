@@ -315,21 +315,3 @@ body {background:#11131b;color:#45494d;font-family: Verdana, Helvetica,Arial,San
     .icon-menu li.selected a{color:#d4d7db;}
     .icon-menu a{background:None;}
     
-    /*==========================
-     CONTENT PAGES/BLOG
-    ===========================*/    
-    #about-main,#about-team,#about-postcards,#about-alien{background:#d4d7db;padding:10px;border-radius:6px;}
-    .selfserve{background:#ffffff;}
-    .rulespage{background:#d4d7db;color:#3e4145;border-radius:4px;padding:20px;}
-    .rulespage h1{color:#559389;}
-    .contact-us-page h2.button{background:#1b1e22;border:#1b1e22 1px solid;font-size:18px;padding:5px;border-radius:6px;color:#559389;box-shadow:0 1px 0 rgba(255, 255, 255,.1) inset}
-    .contact-us-page h2.button:hover{background:#3b4149;border-color:#45494d;border-color:#22262a;box-shadow:0 1px 0 rgba(255, 255, 255,.2) inset}
-    .contact-us-page .details li{background:#22262a;border:none;padding:15px;color:#7c8187;}
-    .contact-us-page .details li a{color:#8eafc6;}
-    .contact-us-page .info{color:#d4d7db;}
-    .instructions{color:#7c8187;}
-    .instructions h1, .instructions h2, .instructions h3{color:#559389;}
-    .instructions a {color:#8eafc6!important;}
-    .instructions .buttons li{border-color:#45494d}
-    .instructions code{background:#e7d171;color:#5B4E16;border-left:#baa54f 4px solid;}
-    .instructions ul.buttons li.button-demo img {background:#ffffff;padding:5px;border-radius:2px;}
