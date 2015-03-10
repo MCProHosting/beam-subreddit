@@ -301,9 +301,3 @@ body {background:#11131b;color:#45494d;font-family: Verdana, Helvetica,Arial,San
     hr{border-color:#344a4a;border-width:1px;border-style:solid;}
     .generic-table{color:#7c8187}
     .generic-table a{color:#8eafc6;}
-    
-    /*==========================
-     FORMS MISC
-    ===========================*/    
-    .pretty-form input[type="text"], .pretty-form textarea, .pretty-form input[type="password"], .pretty-form input[type="number"]{background:#d4d7db;border:none;box-shadow:none;color:#22262a}
-    
