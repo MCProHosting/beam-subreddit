@@ -1,0 +1,70 @@
+#sr-header-area {
+    background: #1f2125;
+    color: #70757b;
+    border: none;
+    padding: 5px;
+
+    a.RESShortcutsCurrentSub,
+    #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
+        color: #8eafc6 !important;
+    }
+}
+
+.sr-bar {
+    a, a:visited {
+        color: #abaeb2 !important;
+    }
+}
+
+.dropdown.srdrop .selected {
+background: #1f2125;
+color: #d4d7db;
+border-right: 1px solid #363b42;
+}
+
+/* Header */
+#header {
+    background: #363b42;
+    border: none;
+}
+
+#header-img.default-header {
+    background: url('%%logo%%') center center no-repeat;
+    background-size: contain;
+    height:50px;
+    width:145px;
+}
+
+#header-bottom-left {
+    background: url('%%generic-001%%') center -200px;
+}
+
+.pagename { display: none; }
+
+.tabmenu {
+    line-height: 50px;
+    li a,
+    li.selected a {
+        border: none !important;
+        border-radius: 3px 3px 0 0;
+        background: transparent;
+        color: #888c91;
+        font-size: 12px;
+    }
+
+    li.selected a {
+        color: #272b30 !important;
+        background: #11131b;
+        border-bottom: none;
+    }
+}
+
+/* Header bottom right */
+#header-bottom-right { background: #141719; }
+#userbarToggle {
+    background: #272b30;
+    border-color: #272b30;
+    color: #888c91;
+}
+
+.user { color: #70757b; }

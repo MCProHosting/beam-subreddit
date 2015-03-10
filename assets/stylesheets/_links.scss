@@ -1,0 +1,144 @@
+/* link listing */
+.link {
+    padding-top:5px;
+    margin-bottom:12px;
+
+    .compressed .title {
+        margin-top: 0;
+    }
+}
+
+.thing {
+    .title {
+        color:#38acf1;font-weight:300;font-family:Helvetica, Arial, Sans;
+    }
+
+    a.title:visited { color: #1d73a7 !important; }
+}
+
+.tagline {
+    color: #3B4149;
+
+    a,
+    .subreddit,
+    .comment .author {
+        color: #5bc0de;
+        font-weight: normal;
+    }
+
+    .friend {
+        background: #D77766;
+        color: #ffffff;
+        border-radius: 3px;
+        padding: 0 4px;
+    }
+}
+
+.domain a { color: #8EAFC6; }
+.entry .buttons li a { color: #7c8187; }
+
+.expando-button {
+    opacity: .4;
+    background:none;
+}
+
+.link.last-clicked { border: #45494d dashed 1px; }
+.newComments { color: #d77766; }
+
+.flat-list {
+    .buttons li a { color: #45494d; }
+    li.selected a { color: #d77766; }
+}
+
+.redditSingleClick {
+    color: #70757B;
+    &:hover { color: #ffffff; }
+}
+
+.id-t2_aj0tq {color: #e35dff !important;}
+
+// TODOOOOOOOOOOOOO
+
+.thing.sticked a {
+    .title,
+    .title:visited {
+        color: #618463;
+    }
+}
+
+/* link listing vote */
+.arrow {
+    .up, .down { opacity: .12; }
+}
+
+.link {
+    .score {
+        font-weight: normal;
+        color: #888c91;
+    }
+
+    .rank { display: none; }
+}
+
+/* Thumbnails */
+.thumbnail {
+    border: #45494d solid 1px;
+    border-radius: 3px;
+}
+
+/* tags, stamps, flairs */
+.nsfw-stamp acronym {
+    font-size: 8px;
+    border: #45494d 1px solid !important;
+    background: #1f2125;
+    color: #B17272;
+}
+
+.flair {
+    font-size: 9px;
+
+    &, .linkflairlabel {
+        background: #dac46a;
+        border: #fde379 1px solid;
+        color: #826F21;
+        opacity: .75;
+
+        &:hover {
+            opacity:1;cursor:default;
+           -webkit-transition: opacity .35s ease-in-out;
+           -moz-transition: opacity .35s ease-in-out;
+           -ms-transition: opacity .35s ease-in-out;
+           -o-transition: opacity .35s ease-in-out;
+           transition: opacity .35s ease-in-out;
+        }
+    }
+}
+
+.linkflairlabel {
+    font-family: Verdana, Helvetica, Arial, Sans;
+    font-size: 8px;
+}
+
+.organic-listing {
+    border: #323B41 1px solid;
+    border-radius: 4px;
+    background: #22262A !important;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.25) inset;
+
+    .link,
+    .link.compressed,
+    .link.promotedlink {
+        background: none;
+    }
+
+    .rank { display: none; }
+    .help { color: #8EAFC6; }
+    .nextprev .arrow {
+        .prev,
+        .next {
+            opacity: .2;
+        }
+    }
+}
+
+.trending-subreddits strong { color: #618463; }
