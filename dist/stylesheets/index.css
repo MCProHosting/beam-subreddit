@@ -76,6 +76,93 @@ body.with-listing-chooser .listing-chooser-collapsed .contents {
     .listing-chooser li .selected a:hover {
       color: #5c91ba !important; }
 
+#sr-header-area {
+  background: #1f2125;
+  color: #70757b;
+  border: none;
+  padding: 5px; }
+  #sr-header-area a.RESShortcutsCurrentSub, #sr-header-area #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
+    color: #8eafc6 !important; }
+
+.sr-bar a, .sr-bar a:visited {
+  color: #abaeb2 !important; }
+
+.dropdown.srdrop .selected {
+  background: #1f2125;
+  color: #d4d7db;
+  border-right: 1px solid #363b42; }
+
+/* Header */
+#header {
+  background: #363b42;
+  border: none; }
+
+#header-img.default-header {
+  background: url('%%logo%%') center center no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 145px; }
+
+#header-bottom-left {
+  background: url('%%generic-001%%') center -200px; }
+
+.pagename {
+  display: none; }
+
+.tabmenu {
+  line-height: 50px; }
+  .tabmenu li a, .tabmenu li.selected a {
+    border: none !important;
+    border-radius: 3px 3px 0 0;
+    background: transparent;
+    color: #888c91;
+    font-size: 12px; }
+  .tabmenu li.selected a {
+    color: #272b30 !important;
+    background: #11131b;
+    border-bottom: none; }
+
+/* Header bottom right */
+#header-bottom-right {
+  background: #141719; }
+
+#userbarToggle {
+  background: #272b30;
+  border-color: #272b30;
+  color: #888c91; }
+
+.user {
+  color: #70757b; }
+
+.footer-parent {
+  margin: 0;
+  padding: 0;
+  background: none; }
+
+.footer {
+  border: none;
+  background: #32373d; }
+  .footer .col {
+    border-left: #45494d 1px solid; }
+
+.flat-vert .title {
+  color: #888c91;
+  font-weight: normal;
+  font-size: 16px; }
+
+.bottommenu {
+  color: #70757b; }
+  .bottommenu .updated {
+    color: #7D9F7E; }
+
+.infobar {
+  border: none;
+  border-radius: 4px; }
+  .infobar .md {
+    color: #826F21; }
+    .infobar .md a {
+      color: #dd6148; }
+
 /* link listing */
 .link {
   padding-top: 5px;
@@ -213,150 +300,6 @@ body.with-listing-chooser .listing-chooser-collapsed .contents {
 .next-suggestions {
   float: right; }
 
-#sr-header-area {
-  background: #1f2125;
-  color: #70757b;
-  border: none;
-  padding: 5px; }
-  #sr-header-area a.RESShortcutsCurrentSub, #sr-header-area #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
-    color: #8eafc6 !important; }
-
-.sr-bar a, .sr-bar a:visited {
-  color: #abaeb2 !important; }
-
-.dropdown.srdrop .selected {
-  background: #1f2125;
-  color: #d4d7db;
-  border-right: 1px solid #363b42; }
-
-/* Header */
-#header {
-  background: #363b42;
-  border: none; }
-
-#header-img.default-header {
-  background: url('%%logo%%') center center no-repeat;
-  background-size: contain;
-  height: 50px;
-  width: 145px; }
-
-#header-bottom-left {
-  background: url('%%generic-001%%') center -200px; }
-
-.pagename {
-  display: none; }
-
-.tabmenu {
-  line-height: 50px; }
-  .tabmenu li a, .tabmenu li.selected a {
-    border: none !important;
-    border-radius: 3px 3px 0 0;
-    background: transparent;
-    color: #888c91;
-    font-size: 12px; }
-  .tabmenu li.selected a {
-    color: #272b30 !important;
-    background: #11131b;
-    border-bottom: none; }
-
-/* Header bottom right */
-#header-bottom-right {
-  background: #141719; }
-
-#userbarToggle {
-  background: #272b30;
-  border-color: #272b30;
-  color: #888c91; }
-
-.user {
-  color: #70757b; }
-
-.footer-parent {
-  margin: 0;
-  padding: 0;
-  background: none; }
-
-.footer {
-  border: none;
-  background: #32373d; }
-  .footer .col {
-    border-left: #45494d 1px solid; }
-
-.flat-vert .title {
-  color: #888c91;
-  font-weight: normal;
-  font-size: 16px; }
-
-.bottommenu {
-  color: #70757b; }
-  .bottommenu .updated {
-    color: #7D9F7E; }
-
-.infobar {
-  border: none;
-  border-radius: 4px; }
-  .infobar .md {
-    color: #826F21; }
-    .infobar .md a {
-      color: #dd6148; }
-
-#about-main, #about-team, #about-postcards, #about-alien {
-  background: #d4d7db;
-  padding: 10px;
-  border-radius: 6px; }
-
-.selfserve {
-  background: #ffffff; }
-
-.rulespage {
-  background: #d4d7db;
-  color: #3e4145;
-  border-radius: 4px;
-  padding: 20px; }
-
-.rulespage h1 {
-  color: #559389; }
-
-.contact-us-page h2.button {
-  background: #1b1e22;
-  border: #1b1e22 1px solid;
-  font-size: 18px;
-  padding: 5px;
-  border-radius: 6px;
-  color: #559389;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset; }
-  .contact-us-page h2.button:hover {
-    background: #3b4149;
-    border-color: #45494d;
-    border-color: #22262a;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset; }
-.contact-us-page .details li {
-  background: #22262a;
-  border: none;
-  padding: 15px;
-  color: #7c8187; }
-  .contact-us-page .details li a {
-    color: #8eafc6; }
-.contact-us-page .info {
-  color: #d4d7db; }
-
-.instructions {
-  color: #7c8187; }
-  .instructions h1, .instructions h2, .instructions h3 {
-    color: #559389; }
-  .instructions a {
-    color: #8eafc6 !important; }
-  .instructions .buttons li {
-    border-color: #45494d; }
-  .instructions code {
-    background: #e7d171;
-    color: #5B4E16;
-    border-left: #baa54f 4px solid; }
-  .instructions ul.buttons li.button-demo img {
-    background: #ffffff;
-    padding: 5px;
-    border-radius: 2px; }
-
 .RESSubscriptionButton {
   background: #618463;
   border: none;
@@ -443,97 +386,19 @@ div.instructions.private-feeds {
   border-color: #7c8187;
   border-radius: 3px; }
 
-.thing.spam {
-  background: #403531; }
+.tabmenu li.selected a {
+  color: #d4d7db !important;
+  font-size: 12px !important; }
 
-.icon-menu li {
-  border-bottom: 1px dotted #363b42;
-  padding: 2px 0 4px 0; }
-  .icon-menu li .selected a {
-    color: #d4d7db; }
-  .icon-menu li a {
-    background: none; }
+.content.submit .info-notice {
+  background-color: #22262a;
+  border: #344a4a 1px solid; }
 
-.pretty-form input[type="text"], .pretty-form textarea, .pretty-form input[type="password"], .pretty-form input[type="number"] {
-  background: #d4d7db;
-  border: none;
-  box-shadow: none;
-  color: #22262a; }
+.tabmenu.formtab .selected a {
+  background: #4e6c80; }
 
-.wiki-page-content .md h1, .wiki-page-content .md h6, .wiki-page-content .usertext-edit textarea h1, .wiki-page-content .usertext-edit textarea h6 {
-  color: #559389; }
-.wiki-page-content .md h2, .wiki-page-content .md h3, .wiki-page-content .usertext-edit textarea h2, .wiki-page-content .usertext-edit textarea h3 {
-  color: #abaeb2; }
-.wiki-page-content .pageactions {
-  border-color: #3e4145; }
-  .wiki-page-content .pageactions .wikiaction-current {
-    background: #4d6c80; }
-  .wiki-page-content .pageactions .wikiaction:hover {
-    background: #333e47; }
-.wiki-page-content .md h2 {
-  color: #4d6c80; }
-
-.wiki-page .wiki-page-content .description h2 {
-  color: #abaeb2; }
-.wiki-page .wiki-page-content .wiki > .toc > ul {
-  background: #22262a;
-  border: #3e4145 1px solid;
-  border-radius: 4px; }
-  .wiki-page .wiki-page-content .wiki > .toc > ul ul {
-    border-color: #45494d; }
-
-hr {
-  border-color: #344a4a;
-  border-width: 1px;
-  border-style: solid; }
-
-.generic-table {
-  color: #7c8187; }
-  .generic-table a {
-    color: #8eafc6; }
-
-.usertable tr td {
-  border: 1px solid #363b42;
-  padding: 5px; }
-  .usertable tr td:hover {
-    background-color: #141719; }
-
-table.content .perftable {
-  background: #d4d7db;
-  color: #45494d;
-  border-radius: 4px; }
-  table.content .perftable tr {
-    border: #abaeb2 1px solid !important; }
-    table.content .perftable tr td {
-      border: #abaeb2 1px solid !important;
-      padding: 5px; }
-table.content input.btn {
-  margin: 10px; }
-
-.subreddit .usertext .md {
-  background: #363B42;
-  border: none;
-  border-radius: 4px;
-  padding: 5px;
-  font-size: 12px; }
-.subreddit .title {
-  color: #D4D7DB; }
-
-.searchpane {
-  background: #272B30;
-  border: #3B4149 1px solid;
-  border-radius: 4px; }
-  .searchpane h4 {
-    color: #D4D7DB !important;
-    font-weight: normal;
-    font-size: 11px; }
-
-.subscription-box .title {
-  color: #8EAFC6;
-  font-size: 13px; }
-.subscription-box .box-separator {
-  border-color: #8EAFC6;
-  margin: 5px auto; }
+.formtabs-content {
+  border-top: #4e6c80 4px solid; }
 
 .link .usertext .md {
   background: transparent;
@@ -684,19 +549,154 @@ table td, table th {
   background-color: #363b42;
   border-radius: 3px; }
 
-.tabmenu li.selected a {
-  color: #d4d7db !important;
-  font-size: 12px !important; }
+.thing.spam {
+  background: #403531; }
 
-.content.submit .info-notice {
-  background-color: #22262a;
-  border: #344a4a 1px solid; }
+.icon-menu li {
+  border-bottom: 1px dotted #363b42;
+  padding: 2px 0 4px 0; }
+  .icon-menu li .selected a {
+    color: #d4d7db; }
+  .icon-menu li a {
+    background: none; }
 
-.tabmenu.formtab .selected a {
-  background: #4e6c80; }
+table.content .perftable {
+  background: #d4d7db;
+  color: #45494d;
+  border-radius: 4px; }
+  table.content .perftable tr {
+    border: #abaeb2 1px solid !important; }
+    table.content .perftable tr td {
+      border: #abaeb2 1px solid !important;
+      padding: 5px; }
+table.content input.btn {
+  margin: 10px; }
 
-.formtabs-content {
-  border-top: #4e6c80 4px solid; }
+.subreddit .usertext .md {
+  background: #363B42;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 12px; }
+.subreddit .title {
+  color: #D4D7DB; }
+
+.searchpane {
+  background: #272B30;
+  border: #3B4149 1px solid;
+  border-radius: 4px; }
+  .searchpane h4 {
+    color: #D4D7DB !important;
+    font-weight: normal;
+    font-size: 11px; }
+
+.subscription-box .title {
+  color: #8EAFC6;
+  font-size: 13px; }
+.subscription-box .box-separator {
+  border-color: #8EAFC6;
+  margin: 5px auto; }
+
+.wiki-page-content .md h1, .wiki-page-content .md h6, .wiki-page-content .usertext-edit textarea h1, .wiki-page-content .usertext-edit textarea h6 {
+  color: #559389; }
+.wiki-page-content .md h2, .wiki-page-content .md h3, .wiki-page-content .usertext-edit textarea h2, .wiki-page-content .usertext-edit textarea h3 {
+  color: #abaeb2; }
+.wiki-page-content .pageactions {
+  border-color: #3e4145; }
+  .wiki-page-content .pageactions .wikiaction-current {
+    background: #4d6c80; }
+  .wiki-page-content .pageactions .wikiaction:hover {
+    background: #333e47; }
+.wiki-page-content .md h2 {
+  color: #4d6c80; }
+
+.wiki-page .wiki-page-content .description h2 {
+  color: #abaeb2; }
+.wiki-page .wiki-page-content .wiki > .toc > ul {
+  background: #22262a;
+  border: #3e4145 1px solid;
+  border-radius: 4px; }
+  .wiki-page .wiki-page-content .wiki > .toc > ul ul {
+    border-color: #45494d; }
+
+hr {
+  border-color: #344a4a;
+  border-width: 1px;
+  border-style: solid; }
+
+.generic-table {
+  color: #7c8187; }
+  .generic-table a {
+    color: #8eafc6; }
+
+.pretty-form input[type="text"], .pretty-form textarea, .pretty-form input[type="password"], .pretty-form input[type="number"] {
+  background: #d4d7db;
+  border: none;
+  box-shadow: none;
+  color: #22262a; }
+
+.usertable tr td {
+  border: 1px solid #363b42;
+  padding: 5px; }
+  .usertable tr td:hover {
+    background-color: #141719; }
+
+#about-main, #about-team, #about-postcards, #about-alien {
+  background: #d4d7db;
+  padding: 10px;
+  border-radius: 6px; }
+
+.selfserve {
+  background: #ffffff; }
+
+.rulespage {
+  background: #d4d7db;
+  color: #3e4145;
+  border-radius: 4px;
+  padding: 20px; }
+
+.rulespage h1 {
+  color: #559389; }
+
+.contact-us-page h2.button {
+  background: #1b1e22;
+  border: #1b1e22 1px solid;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 6px;
+  color: #559389;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset; }
+  .contact-us-page h2.button:hover {
+    background: #3b4149;
+    border-color: #45494d;
+    border-color: #22262a;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset; }
+.contact-us-page .details li {
+  background: #22262a;
+  border: none;
+  padding: 15px;
+  color: #7c8187; }
+  .contact-us-page .details li a {
+    color: #8eafc6; }
+.contact-us-page .info {
+  color: #d4d7db; }
+
+.instructions {
+  color: #7c8187; }
+  .instructions h1, .instructions h2, .instructions h3 {
+    color: #559389; }
+  .instructions a {
+    color: #8eafc6 !important; }
+  .instructions .buttons li {
+    border-color: #45494d; }
+  .instructions code {
+    background: #e7d171;
+    color: #5B4E16;
+    border-left: #baa54f 4px solid; }
+  .instructions ul.buttons li.button-demo img {
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 2px; }
 
 .sr-interest-bar {
   background-color: #7D9F9B;
