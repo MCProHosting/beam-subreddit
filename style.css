@@ -307,11 +307,3 @@ body {background:#11131b;color:#45494d;font-family: Verdana, Helvetica,Arial,San
     ===========================*/    
     .pretty-form input[type="text"], .pretty-form textarea, .pretty-form input[type="password"], .pretty-form input[type="number"]{background:#d4d7db;border:none;box-shadow:none;color:#22262a}
     
-    /*==========================
-     MODERATION
-    ===========================*/    
-    .thing.spam{background:#403531;}
-    .icon-menu li{border-bottom:1px dotted #363b42;padding:2px 0 4px 0}
-    .icon-menu li.selected a{color:#d4d7db;}
-    .icon-menu a{background:None;}
-    
