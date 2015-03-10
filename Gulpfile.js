@@ -3,6 +3,8 @@ var gulp = require('gulp')
 
 gulp.task('dist', function () {
     gulp.src('./assets/stylesheets/**/*.scss')
-        .pipe(sass())
+        .pipe(sass({
+            errLogToConsole: true
+        }))
         .pipe(gulp.dest('./dist/stylesheets'));
 });
