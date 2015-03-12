@@ -1,0 +1,18 @@
+table.content {
+    .perftable {
+        background: #d4d7db;
+        color: #45494d;
+        border-radius: 4px;
+
+        tr {
+            border: #abaeb2 1px solid !important;
+
+            td {
+                border: #abaeb2 1px solid !important;
+                padding: 5px;
+            }
+        }
+    }
+
+    input.btn { margin: 10px; }
+}

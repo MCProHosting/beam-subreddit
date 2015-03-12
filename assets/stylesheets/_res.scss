@@ -1,0 +1,83 @@
+.RESSubscriptionButton {
+    background:#618463;
+    border:none;color:#ffffff;
+
+    &:hover {
+        background:#7D9F7E;
+    }
+}
+
+.RESshortcutside:hover { background:#617B79; }
+.RESDashboardToggle:hover { background:#618463; }
+.RESdupeimg a { color:#d4d7db; }
+
+.NERdupe p.title:after {
+    color:#d4d7db;
+}
+
+.RESshortcutside { background:#7d9f9b; }
+.RESDashboardToggle { background:#7d9f7e; }
+#RESShortcutsEditContainer { background:none; }
+
+#RESShortcutsSort,
+#RESShortcutsRight,
+#RESShortcutsLeft,
+#RESShortcutsAdd,
+#RESShortcutsTrash {
+    background:#363b42;
+    color:#d4d7db;
+    font-size:12px;
+}
+
+
+.NERPageMarker,
+#progressIndicator {
+    background: #45494d;
+    border: #1b1e21 1px solid;
+    box-shadow: 0 1px 0 rgba(255,255,255,.1) inset;
+    color:#888c91;
+}
+
+#progressIndicator h2 { color: #8eafc6; }
+
+.RES-keyNav-activeElement,
+.commentarea .RES-keyNav-activeElement .md,
+.commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+    background-color: #32353B !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,.1);
+}
+
+.res-commentBoxes .thing.comment {
+    background: none !important;
+    border-color: #32353b !important;
+    border-radius:4px;
+}    
+
+.res-commentBoxes .thing.comment .thing.comment { background: #23262C !important; }
+.res-commentBoxes .thing.comment .thing.comment .thing.comment { background: #272b30 !important; }
+.res-commentBoxes .thing.comment .thing.comment .thing.comment .thing.comment { background: #23262C !important; }
+.res-commentBoxes .thing.comment .thing.comment .thing.comment .thing.comment .thing.comment { background: #272b30 !important; }
+.res-commentBoxes .thing.comment .thing.comment .thing.comment .thing.comment .thing.comment .thing.comment { background: #23262C !important; }
+
+.sender .RESUserTag a {
+    background: #888c91 !important;
+    border: none !important;
+}
+
+.entry .RESUserTag { background: none; }
+
+/*==========================
+ PRIVATE RSS TAB
+===========================*/    
+
+div.instructions.private-feeds {
+    background: #32373d;
+    color: #d4d7db;
+    border-radius: 4px;
+    padding:10px;
+}
+
+.private-feeds.instructions .feedlink {
+    border-color: #7c8187;
+    border-radius: 3px;
+}

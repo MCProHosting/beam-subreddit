@@ -1,0 +1,36 @@
+.sr-interest-bar {
+    background-color: #7D9F9B;
+    border: none;
+    border-radius: 4px;
+
+    .subscribe {
+        background: #7D9F7E;
+        border: none;
+        font-size: 12px;
+    }
+}
+
+.action-form {
+    background: #3e4145;
+    border: #45494d 1px solid;
+    color: #abaeb2;
+}
+
+.panestack-title {
+    border-bottom: #45494d 1px dotted;
+}
+
+#account-activity {
+    .instructions { color: #888c91; }
+
+    table, table td { border: #45494d 1px solid; }
+    table td, table th { padding: 5px; }
+}
+
+.server-seconds {
+    background: #C2D0D9;
+    color: #52616C;
+    border: none;
+
+    em { color: #2C5A7B; }
+}

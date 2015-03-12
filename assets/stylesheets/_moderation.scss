@@ -1,0 +1,16 @@
+.thing.spam { background: #403531; }
+.icon-menu {
+    li {
+        border-bottom: 1px dotted #363b42;
+        padding: 2px 0 4px 0;
+
+        .selected a {
+            color: #d4d7db;
+        }
+
+        a {
+            background: none;
+        }
+    }
+
+}

@@ -1,0 +1,54 @@
+.wiki-page-content {
+    .md h1,
+    .md h6,
+    .usertext-edit textarea h1,
+    .usertext-edit textarea h6 {
+        color: #559389;
+    }
+
+    .md h2, 
+    .md h3,
+    .usertext-edit textarea h2,
+    .usertext-edit textarea h3 {
+        color: #abaeb2;
+    }
+
+    .pageactions {
+        border-color: #3e4145;
+
+        .wikiaction-current {
+            background: #4d6c80;
+        }
+
+        .wikiaction:hover {
+            background: #333e47;
+        }
+    }
+
+    .md h2 { color: #4d6c80; }
+}
+
+.wiki-page .wiki-page-content {
+    .description h2 { color: #abaeb2; }
+    .wiki > .toc > ul {
+        background: #22262a;
+        border: #3e4145 1px solid;
+        border-radius: 4px;
+
+        ul {
+            border-color: #45494d;
+        }
+    }
+}
+
+hr {
+    border-color: #344a4a;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.generic-table {
+    color: #7c8187;
+
+    a { color: #8eafc6; }
+}
