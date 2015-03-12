@@ -163,6 +163,103 @@ body.with-listing-chooser .listing-chooser-collapsed .contents {
     .infobar .md a {
       color: #dd6148; }
 
+.side {
+  background: #363b42;
+  padding: 5px;
+  border-radius: 6px;
+  margin: 5px;
+  color: #70757b; }
+
+.login-form-side {
+  border: #45494d 1px solid;
+  border-radius: 4px; }
+
+#search input[type="text"] {
+  background: #D4D7DB;
+  color: #888c91;
+  border: none; }
+  #search input[type="text"]:focus {
+    background: #ffffff;
+    color: #272b30; }
+
+.titlebox h1 {
+  font-size: 22px; }
+  .titlebox h1 a {
+    color: #8eafc6; }
+
+.md {
+  color: #888c91; }
+  .md a {
+    color: #8eafc6; }
+    .md a:visited {
+      color: #5f5365 !important; }
+
+.morelink a {
+  color: #d4d7db;
+  font-weight: normal;
+  letter-spacing: normal;
+  font-size: 14px; }
+.morelink, .morelink:hover {
+  background: #1f2125;
+  border: #141719 solid 1px;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset; }
+.morelink:hover {
+  background: #27292E; }
+.morelink .nub {
+  display: none; }
+
+.gadget small {
+  color: #70757B; }
+.gadget a {
+  color: #888c91; }
+  .gadget a .reddit-comment-link {
+    color: #fff; }
+
+.sidebox .spacer {
+  background: #70757b; }
+.sidebox .subtitle {
+  color: #B7BBC0; }
+
+.sidecontentbox .content {
+  background: #272b30;
+  border: none; }
+
+.login-form-side input[type="text"], .login-form-side input[type="password"] {
+  background: #70757b;
+  color: #abaeb2;
+  border: none; }
+  .login-form-side input[type="text"]:focus, .login-form-side input[type="password"]:focus {
+    background: #ffffff;
+    color: #3e4145; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  color: #57edfc;
+  background: rgba(35, 81, 88, 0.35);
+  text-shadow: 0 0 1px rgba(6, 14, 15, 0.95);
+  letter-spacing: 1px;
+  border: 1px solid;
+  border-color: #38acf1 #38acf1 #57edfc;
+  transition: color .3s, border-color .3s, background .3s;
+  font-weight: regular;
+  position: relative;
+  overflow: hidden;
+  outline: 0 !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  border-radius: 3px;
+  text-transform: capitalize;
+  padding: 3px 12px;
+  font-size: 11px;
+  line-height: 1.42857143; }
+
+.giftgold a, .gilded-link a {
+  font-weight: normal;
+  color: #FDE379; }
+
+.goldvertisement .inner {
+  background: #fcf2b4; }
+
 /* link listing */
 .link {
   padding-top: 5px;
